@@ -25,8 +25,13 @@ sqlite3 chinook.db
 
 5. Executing Queries: 
 - Option 1: Executing from command line: Make sure the SQLite command-line prompt is initialized in the chinook database folder, then you can simple copy paste the code from Query.sql files onto the command-line and execute them.
-- Option 2: In DB Browser, navigate to the EXECUTE SQL component, then copy paste the queries, then click on run. This should execute the queries and show you the proper output!.
-- Option 3:
+- Option 2: In DB Browser, navigate to the EXECUTE SQL component, then copy paste the queries, then click on run. This should execute the queries and show you the proper output! (Preferred***).
+- Option 3: Open and execute the sql file along with chinook database, make sure to navigate to the folder where the chinook.db file is present, use the following SQLite command:
+```
+sqlite3 chinook.db < query1.sql
+```
+Similarly, you can execute the code for the other queries.
+
 
 
 
