@@ -1,0 +1,10 @@
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (1, 'Steven Spielberg');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (2, 'Steve Martin');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (3, 'Christopher Nolan');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (4, 'Stanley Kubrick');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (5, 'Martin Scorcesse');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (6, 'Maniratnam');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (7, 'Shankar');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (8, 'Tim Burton');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (9, 'Wes Anderson');
+INSERT INTO MusicVideo (TrackId, video_director) VALUES (10, 'Ridley Scott');
