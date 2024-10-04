@@ -6,6 +6,29 @@ simply run the following command in the terminal to initialize:
 ```
 sqlite3
 ```
+It should open up the SQLite prompt, otherwise go to this link to download SQLite (Ensure Compatibility)
+<a href="https://www.sqlite.org/download.html">SQLite Download</a>
+
+2. The SQLite queries can either be executed in the terminal SQLite command line, or you can install a software called DB Browser which useful for doing DDL or DML tasks.
+<a href="https://sqlitebrowser.org/dl/">Download DB Browser</a>
+
+3. The dataset we will be using for these tasks, is the Chinook database, which is available in this link:
+<a href="https://www.sqlitetutorial.net/sqlite-sample-database/">Download Chinook Database</a>
+You can download the zipped chinook database, and unzip it.
+
+4. Now, we need to navigate into the database there are two options
+-   Option 1: Navigate to the directory where the chinook database is present, and initialize from the command-line:
+```
+sqlite3 chinook.db
+```
+- Option 2: Open the database, by using DB Browser. Click on Open Database and choose the Chinook database folder. It will show all the tables and data present in it. (This makes it easier to view the tables -- Personal Preference)
+
+5. Executing Queries: 
+- Option 1: Executing from command line: Make sure the SQLite command-line prompt is initialized in the chinook database folder, then you can simple copy paste the code from Query.sql files onto the command-line and execute them.
+- Option 2: In DB Browser, navigate to the EXECUTE SQL component, then copy paste the queries, then click on run. This should execute the queries and show you the proper output!.
+- Option 3:
+
+
 
 
 ## Queries
