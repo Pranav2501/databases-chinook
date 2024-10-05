@@ -49,3 +49,7 @@ Similarly, you can execute the code for the other queries.
 - Query 5: Create a query to list album titles, artist names, and the number of tracks for each album. Use a JOIN to connect the albums and artists tables, and a subquery to count the tracks from the tracks table for each album. The results should be ordered by the number of tracks in descending order. (Creative addition***. Make an interesting query that uses a JOIN of at least two tables.)
 
 - Query 6: Create a query to list the number of tracks for each genre and the average track price within that genre. Use a JOIN to connect the tracks and genres tables. Group the results by genre name, and order them by the number of tracks in descending order. (Creative addition***. Make an interesting query that uses a GROUP statement and at least two tables.)
+
+- Query 7:  Write a query that lists all the customers that listen to longer-than-average tracks, excluding the tracks that are longer than 15 minutes. 
+
+- Query 8: Write a query that lists all the tracks that are not in one of the top 5 genres with longer duration in the database. 
